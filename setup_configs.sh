@@ -8,5 +8,10 @@ sudo apt-get install vim
 
 file="zshrc"
 
+mkdir -p ~/.old_configs
+
+
 for file in $files; do
+	echo "Seting up .$file"
+	mv ~/.$file ~/.old_configs/$file
 	ln -s ./$file ~/.$file
