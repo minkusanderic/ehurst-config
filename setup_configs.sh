@@ -15,3 +15,4 @@ for file in $files; do
 	echo "Seting up .$file"
 	mv ~/.$file ~/.old_configs/$file
 	ln -s ./$file ~/.$file
+done
