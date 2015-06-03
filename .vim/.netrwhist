@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/f/homes/ehurst/pedro/sw/embedded/common/pig'
+let g:netrw_dirhist_2='/f/homes/ehurst/FH-23093/src/lib/pypmp'
+let g:netrw_dirhist_3='/f/homes/ehurst/fh/src/util/fio-pig-test'
